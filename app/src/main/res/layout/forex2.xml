@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED">
+
+
+    <TextView
+        android:id="@+id/forex3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Create Account"
+        android:textColor="#1D1F1F"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/forex4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:text="We provide a full range of forex and crypto trading services for you."
+        android:textColor="#303535"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex3" />
+
+    <TextView
+        android:id="@+id/forex5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Your email"
+        android:textColor="#303535"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex4" />
+
+    <TextView
+        android:id="@+id/forex10"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:paddingHorizontal="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex5" />
+
+    <TextView
+        android:id="@+id/forex6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Password"
+        android:layout_marginTop="10dp"
+        android:textColor="#303535"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex10" />
+
+    <TextView
+        android:id="@+id/forex7"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="190dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex6" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/forex8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFDD29"
+        android:paddingHorizontal="100dp"
+        android:text="create account"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        app:cornerRadius="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex7" />
+
+    <TextView
+        android:id="@+id/forex9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Or sign in with Google"
+        android:textColor="#303535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/forex2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex9" />
+4897/z
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="95dp"
+        android:src="@drawable/grommet_icons_google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex9"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:text="Google"
+        android:textColor="#1B1E34"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forex9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/main_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:src="@drawable/you_have_an_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="80dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
